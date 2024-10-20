@@ -14,9 +14,9 @@ dotenv.config();
 // Database connection
 connectDB();
 
-// CORS Middleware (with proper config)
+ 
 app.use(cors({
-    origin: 'true',
+    origin: 'https://trade-con.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
 

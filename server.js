@@ -16,7 +16,7 @@ connectDB();
 
 // CORS Middleware (with proper config)
 app.use(cors({
-    origin: 'https://dwfrontend-eight.vercel.app',
+    origin: 'true',
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
 
